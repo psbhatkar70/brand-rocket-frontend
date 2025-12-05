@@ -75,7 +75,7 @@ function App() {
             )}
 
             <img 
-              src={`https://image.pollinations.ai/prompt/${encodeURIComponent(result.imagePrompt)}?width=800&height=800&nologo=true`} 
+              src={`https://image.pollinations.ai/prompt/${encodeURIComponent(result.imagePrompt)}?width=1024&height=1024&model=flux&nologo=true`} 
               alt="AI Generated Ad" 
               style={{ display: imageLoading ? 'none' : 'block' }} 
               onLoad={() => setImageLoading(false)} 
